@@ -61,6 +61,7 @@ export default function Login() {
     <Button style={{borderRadius: "45px", height: "45px", width:"300px", backgroundColor:"blue"}} variant="contained" color="primary">
     S'incrire
     </Button>
+    <hr style={{marginLeft:"50px", border:"0.5px solid grey", marginTop:"10px", width:"300px", opacity:"0.4"}}></hr>
     <div style={{ display:"flex", justifyContent:"space-evenly", marginTop:"15px" }}>
     <Button style={{border:"1px solid blue"}}><img style={{height:"40px", width:"40px"}} src={"/logo_google.jpeg"} alt="Logo google"/>GOOGLE</Button>
     <Button style={{border:"1px solid blue"}}><img style={{height:"40px", width:"40px"}} src={"/LinkedIn_logo.png"} alt="Logo linkedIn"/>LINKEDIN</Button>
